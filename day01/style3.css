@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+}
+ 
+.container {
+    margin: 2em auto;
+    width: 80%;
+}
+ 
+span {
+    color: red;
+    font-weight: bold;
+} 
+
+h1 { 
+    color: red
+}
+
+h2 {
+    color: rgb(232, 120, 139);
+    margin-top: 0.5em;
+}
+
+h3 {
+    margin-top: 0.5em;
+}
+
+p {
+    padding-bottom: 1em;
+}
+
+section {
+    margin-top: 1em;
+    background: rgb(251, 204, 211);
+    padding: 0em 1em; 
+    border-radius: 0.5em;
+    border: 4px solid rgb(238, 135, 152);
+}
