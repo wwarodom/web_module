@@ -7,8 +7,7 @@
 .flex-container {
     display: flex;
     padding: 1em;
-    margin: 1em;
-    height: 80vh;
+    margin: 1em; 
     gap: 1em;
     align-items: flex-start;
     border: 2px solid red;
@@ -24,3 +23,7 @@
 .right-space {
     margin-right: auto;
 }
+
+.left-space {
+    margin-left: auto;
+}   
