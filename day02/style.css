@@ -5,30 +5,22 @@
 }
 
 .flex-container {
-
     display: flex;
     padding: 1em;
     margin: 1em;
-    /* flex-wrap: nowrap; */
     height: 80vh;
-    /* column-gap: 1em;
-    row-gap: 2em; */
-    gap: 2em;
-    /* flex-direction: row; */
-    justify-content: space-between;
+    gap: 1em;
     align-items: flex-start;
-    /* align-content: center; */
     border: 2px solid red;
 }
-
-.right-menu {
-    display: flex;
-    gap: 1em;   
-}
-
+ 
 .flex-item {
     padding: 1em;
     border-radius: 1em; 
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2); 
     border: 3px solid blue;
+}
+
+.right-space {
+    margin-right: auto;
 }
