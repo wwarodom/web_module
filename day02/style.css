@@ -27,3 +27,17 @@
 .left-space {
     margin-left: auto;
 }   
+
+.row1,  .row2 {
+    display: flex;
+    height: 35vh;
+    border: 2px solid green;
+}
+
+.box {
+    margin: 1em;
+    flex: 1;
+    text-align: center;
+    padding: 1em;
+    border: 2px solid darkmagenta;
+}
