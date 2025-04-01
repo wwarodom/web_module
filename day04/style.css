@@ -65,6 +65,11 @@ ul {
     margin: 0 auto;
 }
 
+h1 {
+    text-align: center;
+}
+
+
 .container p {
     font-size: clamp(0.7rem, 3vw, 1.5rem);
 }
@@ -96,10 +101,22 @@ footer {
     background: lightblue;
     text-shadow: 2px 2px 6px black;
     text-align: center;
+    padding: 1em;
 }
 
 @media screen and (min-width: 680px) {
-   
+    
+    img:hover {
+        box-shadow: 4px 4px 10px black;
+        transform: scale(1.1);
+        transition: all 0.3s ease;
+    }
+
+    h1, footer {
+        text-align: left;
+        color: green;
+    }
+
     .hamburger {
         display: none;
     }
