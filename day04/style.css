@@ -24,7 +24,7 @@ ul {
     margin: 0 auto;
 }
 
-.container p { 
+.container p {
     font-size: clamp(0.7rem, 3vw, 1.5rem);
 }
 
@@ -32,15 +32,16 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1em; 
+    gap: 1em;
 }
 
 .card {
-    margin-top: 1em;
-    width: 14em;
+    margin-top: 1em; 
 }
 
-.card img {
-    width: 100%;
+.card img { 
+    width: 14em;
+    height: 16em; 
+    object-fit: cover;   
     border-radius: 0.5em;
 }
