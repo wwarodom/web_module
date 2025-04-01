@@ -5,7 +5,16 @@
     /* border: 2px solid; */
 }
 
+.box {
+    width: 7em;
+    height: 7em;
+    background: red;
+}
+
+
+
 nav {
+    min-width: 12em;
     display: flex;
     padding: 0.3em;
     background: lightblue;
@@ -28,6 +37,7 @@ ul {
 
     list-style: none;
     gap: 1em;
+    margin-right: 1em;
     line-height: 3em;
     text-shadow: 2px 2px 6px black;
 }
@@ -86,4 +96,15 @@ footer {
     background: lightblue;
     text-shadow: 2px 2px 6px black;
     text-align: center;
+}
+
+@media screen and (min-width: 680px) {
+   
+    .hamburger {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+    }
 }
