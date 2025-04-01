@@ -28,6 +28,13 @@ ul {
     font-size: clamp(0.7rem, 3vw, 1.5rem);
 }
 
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em; 
+}
+
 .card {
     margin-top: 1em;
     width: 14em;
