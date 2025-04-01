@@ -22,12 +22,33 @@ nav div img {
 }
 
 ul {
-    display: flex;
+    display: none;
+    /* display: flex; */
+    /* visibility: hidden; */
+
     list-style: none;
     gap: 1em;
     line-height: 3em;
     text-shadow: 2px 2px 6px black;
 }
+
+.hamburger { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     line-height: 3em;
+     /* border: 2px solid yellow; */
+}
+
+.line {
+    width: 2em;
+    height: 6px;
+    margin: 0 0.8em 0.3em 0;
+    border-radius: 16px;
+    background: black;
+}
+
+
 
 .container {
     width: 80%;
@@ -58,4 +79,11 @@ ul {
     height: 16em; 
     object-fit: cover;   
     border-radius: 0.5em;
+}
+
+footer {
+    font-size: 1.5rem;
+    background: lightblue;
+    text-shadow: 2px 2px 6px black;
+    text-align: center;
 }
