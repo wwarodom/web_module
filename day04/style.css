@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+nav {
+    display: flex;
+    padding: 1em;
+    background: lightblue;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
