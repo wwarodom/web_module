@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 2px solid;
+    /* border: 2px solid; */
 }
 
 nav {
@@ -29,14 +29,18 @@ ul {
 }
 
 .card-container {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; */
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
     gap: 1em;
 }
 
-.card {
-    margin-top: 1em; 
+.card { 
+    /* border: 5px solid green; */
+    margin: 1em auto;
 }
 
 .card img { 
